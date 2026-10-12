@@ -14,7 +14,7 @@ target = 9
 print(two_sum(nums,target))
 
 # time complexity - we have 2 loops so n*n=o(n^2)
-# space complexity -we have fixed variables only
+# space complexity - o(1) we have fixed variables only
 
 
 
