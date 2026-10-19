@@ -1,7 +1,7 @@
 def palindrome(s):
     n=len(s)
-    left=0
-    right=n-1
+    left=0 #1st pointer
+    right=n-1 #2nd pointer
     while left<right:
         if not s[left].isalnum():
             left += 1
