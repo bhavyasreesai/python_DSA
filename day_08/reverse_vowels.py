@@ -18,3 +18,5 @@ def reverse_vowels(s):
     return "".join(chars)
 s = "hello"
 print(reverse_vowels(s))
+#time complexity-o(n)
+#space complexity-o(n)
