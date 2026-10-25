@@ -5,8 +5,7 @@ def contains_duplicates(nums,k):
         if nums[i] in dicti and i-dicti[nums[i]]<=k:
             return True
         dicti[nums[i]]=i
-        if len(dicti)>k:
-            del dicti[nums[i-k]]
+
     return False
 nums = [1, 2, 3, 1]
 k = 3
@@ -14,7 +13,7 @@ print(contains_duplicates(nums,k))
 
 #output-True
 #time complexity-o(n)
-#space complexity-o(1)
+#space complexity-o(n)
 
 
 #########
