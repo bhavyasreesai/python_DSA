@@ -11,7 +11,7 @@ def early_exit(nums):
         if swapped==False:
             break
     return nums
-nums = [1,3, 2, 3, 4, 5]
+nums = [1, 2, 3, 4, 5]
 print(early_exit(nums))
 #output-[1, 2, 3, 3, 4, 5]
 #time complexity-o(n) best case , already sorted
