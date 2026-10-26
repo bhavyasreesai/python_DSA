@@ -11,4 +11,3 @@ nums=[5,1,34,4,2,8]
 print(bubble_sort(nums))
 #output-[1, 2, 4, 5, 8, 34]
 #time complexity-o(n)
-#space complexity-o(1)
