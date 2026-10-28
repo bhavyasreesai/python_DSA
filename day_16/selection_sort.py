@@ -5,9 +5,9 @@ def selection_sort(nums):
         for j in range(i+1,n):
             if nums[j]<nums[min_pos]:
                 min_pos=j
-                temp=nums[i]
-                nums[i]=nums[min_pos]
-                nums[min_pos]=temp
+        temp=nums[i]
+        nums[i]=nums[min_pos]
+        nums[min_pos]=temp
         #print(nums)
     return nums
 nums=[3,5,3,8,6,7,2]
