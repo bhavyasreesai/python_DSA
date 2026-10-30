@@ -1,4 +1,4 @@
-#hoare partiation
+#Lomuto partiation
 def sort(nums,low,high):
 
     pivot=nums[low]
