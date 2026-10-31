@@ -17,7 +17,20 @@ print(two_sum(nums,target))
 # space complexity - o(1) we have fixed variables only
 
 
-
-
+#optimal code
+def sum(nums,target):
+    dict={}
+    n=len(nums)
+    for i in range(n):
+        need_num=target-nums[i]
+        if need_num in dict:
+            return [dict[need_num],i]
+        dict[nums[i]]=i
+nums=[2,7,11,15]
+target=9
+print(sum(nums,target))
+#output-[0,1]
+#time complexity-o(n)
+#space complexity-o(1)
 
 
