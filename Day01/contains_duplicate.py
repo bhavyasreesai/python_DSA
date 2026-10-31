@@ -13,3 +13,20 @@ print(contains_duplicate(nums))
 
 # time complexity-o(n^2) as only two loop
 # space complexity - o(1) we have fixed variables only
+
+
+#optimal solution
+def dupli(nums):
+    n=len(nums)
+    dict={}
+    for i in range(n):
+        if nums[i] in dict:
+            return True
+        else:
+            dict[nums[i]]=i
+    return False
+nums=[1,2,3,3]
+print(dupli(nums))
+#output-True
+#time complexity-o(n)
+#space complexity-o(1)
