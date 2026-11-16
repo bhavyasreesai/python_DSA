@@ -25,7 +25,7 @@ def code(s,k):
 s="AABABBA"
 k=1
 print(code(s,k))
-#o/p=3
+#o/p=4
 #time comp=o(n)
 #space comp=o(1)
     
